@@ -15,6 +15,7 @@ import './index.css'
 
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)))
 
+//https://www.taniarascia.com/redux-react-guide/
 render(
     <Provider store={store}>
         <App />
